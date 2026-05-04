@@ -1,0 +1,1 @@
+CREATE DATABASE IF NOT EXISTS q15_attendance; USE q15_attendance; CREATE TABLE IF NOT EXISTS attendance(id INT AUTO_INCREMENT PRIMARY KEY,employee_id INT,date DATE,status VARCHAR(10),UNIQUE(employee_id,date));

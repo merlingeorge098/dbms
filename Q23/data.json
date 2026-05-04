@@ -1,0 +1,15 @@
+{
+    "India": {
+        "Maharashtra": ["Mumbai", "Pune", "Nagpur", "Nashik"],
+        "Kerala": ["Kochi", "Thiruvananthapuram", "Kozhikode"],
+        "Goa": ["Panaji", "Margao", "Vasco da Gama"]
+    },
+    "USA": {
+        "California": ["Los Angeles", "San Francisco", "San Diego"],
+        "Texas": ["Houston", "Dallas", "Austin"]
+    },
+    "UAE": {
+        "Dubai": ["Deira", "Jumeirah", "Bur Dubai"],
+        "Abu Dhabi": ["Al Ain", "Mussafah", "Khalifa City"]
+    }
+}

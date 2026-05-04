@@ -1,0 +1,1 @@
+<?php header('Content-Type: application/json'); echo json_encode(['College tech fest registration opens','New internship drive announced','Library timing updated','Workshop on web development scheduled']); ?>

@@ -1,0 +1,24 @@
+WDL QUESTION BANK - CHECK REPORT
+
+Document assessed: Question BankUpdated (2)(2).docx
+Questions covered: Q01 to Q29
+
+Folder rules followed:
+- Each question has its own separate folder.
+- Front-end questions include index.html, style.css, script.js, README.txt.
+- PHP/MySQL questions include index.php, config.php, database.sql, style.css, script.js, README.txt.
+- AJAX/PHP questions include their backend PHP endpoint where required.
+- No shared/common CSS file is used.
+- No shared/common JavaScript file is used.
+- Main logic lines are commented inside the code.
+
+Manual/automated checks performed:
+- 29 question folders found.
+- Required files checked for each question.
+- PHP syntax checked using php -l.
+- JSON files checked for valid JSON.
+- Q23 fixed with data.json plus backup data inside script.js so it works even if opened directly.
+
+Run notes:
+- HTML-only questions can be opened directly, but AJAX questions should be run using XAMPP localhost or VS Code Live Server.
+- PHP/MySQL questions must be placed inside htdocs and the question's database.sql must be imported in phpMyAdmin.

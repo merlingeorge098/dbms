@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q23 Country State City Dropdown</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Country - State - City Dropdown</h1>
+        <p class="small-text">Select a country, then select a state to load cities.</p>
+
+        <label for="countrySelect">Country</label>
+        <select id="countrySelect">
+            <option value="">Select Country</option>
+        </select>
+
+        <label for="stateSelect">State</label>
+        <select id="stateSelect" disabled>
+            <option value="">Select State</option>
+        </select>
+
+        <label for="citySelect">City</label>
+        <select id="citySelect" disabled>
+            <option value="">Select City</option>
+        </select>
+
+        <p id="message"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
