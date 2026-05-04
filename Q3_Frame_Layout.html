@@ -1,0 +1,55 @@
+<!--
+WDL Set 1
+Simple functional HTML file.
+Open this file directly in any browser.
+-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Q3 Frame Layout</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 40px;
+        }
+        .container {
+            width: 420px;
+            border: 3px solid #5b2b00;
+            text-align: center;
+            color: white;
+            font-weight: bold;
+            font-size: 22px;
+        }
+        .top {
+            background-color: #d40000;
+            padding: 8px;
+            border-bottom: 3px solid #5b2b00;
+        }
+        .bottom {
+            display: flex;
+            height: 120px;
+        }
+        .left, .right {
+            background-color: #ff7f00;
+            width: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .left {
+            border-right: 3px solid #5b2b00;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="top">Top Frame</div>
+    <div class="bottom">
+        <div class="left">Left Frame</div>
+        <div class="right">Right Frame</div>
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,103 @@
+<!--
+WDL Set 1
+Simple functional HTML file.
+Open this file directly in any browser.
+-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Q5 Time Table</title>
+    <style>
+        body {
+            font-family: "Times New Roman", serif;
+            padding: 30px;
+        }
+        table {
+            border-collapse: collapse;
+            width: 900px;
+            border: 4px solid #6b5f00;
+        }
+        th, td {
+            border: 3px solid #6b5f00;
+            text-align: center;
+            font-size: 38px;
+            font-weight: bold;
+            padding: 5px;
+        }
+        .title {
+            background-color: pink;
+            font-size: 42px;
+        }
+        .hours {
+            background-color: green;
+            color: white;
+            font-size: 40px;
+        }
+        .yellow {
+            background-color: yellow;
+        }
+        .lunch {
+            background-color: plum;
+            font-size: 40px;
+        }
+    </style>
+</head>
+<body>
+
+<table>
+    <tr>
+        <th class="title" colspan="7">Time Table</th>
+    </tr>
+
+    <tr>
+        <th class="hours" rowspan="6">Hours</th>
+        <th class="yellow">Mon</th>
+        <th class="yellow">Tue</th>
+        <th class="yellow">wed</th>
+        <th class="yellow">Thur</th>
+        <th class="yellow">Fri</th>
+        <th class="yellow">Sat</th>
+    </tr>
+
+    <tr>
+        <td class="yellow" rowspan="2">DBMS</td>
+        <td class="yellow">WT</td>
+        <td class="yellow">OOAD</td>
+        <td class="yellow">JP</td>
+        <td class="yellow">OR</td>
+        <td class="yellow">COA</td>
+    </tr>
+
+    <tr>
+        <td class="yellow">OR</td>
+        <td class="yellow">WT</td>
+        <td class="yellow">COA</td>
+        <td class="yellow">OOAD</td>
+        <td class="yellow">JP</td>
+    </tr>
+
+    <tr>
+        <td class="lunch" colspan="6">LUNCH BREAK</td>
+    </tr>
+
+    <tr>
+        <td class="yellow">DBMS</td>
+        <td class="yellow">WT</td>
+        <td class="yellow">OOAD</td>
+        <td class="yellow">JP</td>
+        <td class="yellow">OR</td>
+        <td class="yellow">COA</td>
+    </tr>
+
+    <tr>
+        <td class="yellow">DBMS</td>
+        <td class="yellow">OR</td>
+        <td class="yellow">WT</td>
+        <td class="yellow">COA</td>
+        <td class="yellow">OOAD</td>
+        <td class="yellow">JP</td>
+    </tr>
+</table>
+
+</body>
+</html>
